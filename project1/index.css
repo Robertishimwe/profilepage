@@ -1,4 +1,5 @@
 @media all and (max-width: 1440px) {
+
 body{
     background-color: hsl(185, 75%, 39%);
     font-weight: 400,700;
@@ -78,6 +79,7 @@ ul li{
     margin-block-start: 0px;
 }
 }
+
 
 
 @media all and (max-width: 375px) {
