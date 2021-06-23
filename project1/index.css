@@ -1,176 +1,263 @@
-@media all and (max-width: 1440px) {
-
-body{
-    background-color: hsl(185, 75%, 39%);
-    font-weight: 400,700;
-    font-size: 18px;
-    font-family: 'Kumbh Sans', sans-serif;
-}
-img{
-    width: 978px;
-   
-}
-#tops{
-    position: absolute;
-    right:60%;
-    top:-80%;
-   
-}
-#btm{
-    position: absolute;
-    left:50%;
-    bottom:-100%;
-}
-
-.overlay{
-    background-color: white;
-    height: 400px;
-    width: 30%;
-    position: relative;
-    left: 35%;
-    top: 120px;
-    border-radius:8%;
-    overflow-x:hidden;
-}
-#cardb {
-    position:relative;
-    height: 120px;
-    width: 400px;;
-   
-}
-#vectorb{
-    width:100px;
-    height:100px;
-    border-radius: 50%;
-    position: absolute;
-    left: 35%;
-    top: 60px;
-    margin: 2px;
-    border: 4px solid white;
-}
-.first {
-    font-size: 22px;
-    text-align: center;
-    position:relative;
-    top: 50px;
-}
-hr{
-    position: relative;
-    top: 40px;
-}
-ul {
-   
-    font-size: 20px;
-    font-weight: bolder;
-    list-style: none;
-    position: relative;
-    top:40px
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/assets/favicon-32x32.png">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Overpass?preview.text_type=custom">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom">
+    <style>
+        .attribution {
+          font-size: 11px;
+          text-align: center;
+        }
     
-}
-ul li{
-    float: left;
-    margin: 30px;
-    margin-bottom: 0px;
-    margin-top: 7px;
-}
-#last {
-    font-size: 12px;
-    margin-top: 7px;
-    margin-block-start: 0px;
-}
-}
-
-
-
-@media all and (max-width: 375px) {
-
-
-
-    body{
-        background-color: hsl(185, 75%, 39%);
-        font-weight: 400,700;
-        font-size: 18px;
-        font-family: 'Kumbh Sans', sans-serif;
-    }
-    img{
-        width: 978px;
-       
-    }
-    #tops{
-        position: absolute;
-        right:-10%;
-        top:-40%;
-        
-       
-    }
-    #btm{
-        position: absolute;
-        left:100%;
-        bottom:-170%;
-    }
+        .attribution a {
+          color: hsl(228, 45%, 44%);
+        }
+      </style>
     
-    .overlay{
-        background-color: white;
-        height: 1100px;
-        width: 280%;
-        position: absolute;
-        left: 28%;
-        top: 320px;
-        border-radius:8%;
-        overflow-x:hidden;
-    }
-    #cardb {
-        position:relative;
-        height: 310px;
-        width: 100%;
-       
-    }
-    #vectorb{
-        width:260px;
-        height:260px;
-        border-radius: 50%;
-        position: absolute;
-        left: 32.5%;
-        top: 150px;
-        margin: 2px;
-        border: 10px solid white;
-    }
-    .first {
-        font-size:65px;
-        text-align: center;
-        position:relative;
-        top: 80px;
-    }
-    hr{
-        position: relative;
-        top: 70px;
-    }
-    ul {
-       
-        font-size: 90px;
-        font-weight: bolder;
-        list-style: none;
-        position: relative;
-        top:40px;
-        text-align: center;
-        
-        
-    }
-    ul li{
-        text-align: center;
-        float: left;
-        margin: 30px;
-        margin-bottom: 0px;
-        margin-top: 7px;
-    }
-    #last {
-        font-weight: 10px;
-        font-size: 52px;
-        margin-top: 7px;
-        margin-block-start: 0px;
-    }
+    <title>Blogr | A modern publishing platform</title>
+</head>
+
+
+
+<body>
+    <div class="headerh"> 
+       <!--mobile view elemennts-->
+      <img src="./images/logo.svg" alt="logo2" class="logo2">
+      <img src="./images/bars-solid.svg" alt="bars" class="bars">
+      <img src="./images/icon-close.svg" alt="close" class="close">
+      <img src="./images/icon-hamburger.svg" alt="bars1" class="bars1"  id="bars1">
+
+   <!--   <script> /**
+        var bars1= document.getElementById("menulo");
+        function mee() {
+          document.getElementById("bars1").innerHTML="<i>kfkfkfkfkf</i>";
+        } */
+
+        </script>   -->
+
     
+     <!-- <div class="menulo"> </div>  -->
+      
+        <!--left side header-->
+        <div class="firstheader">
+            <div class="logo">
+                <img src="./images/logo.svg" alt="logo">
+            </div>
+           
+          <div class="menu">
+
+            <h1 class="modern">A modern</h1>
+            <h1 class="modern">publishing platform</h1>
+            <p class="online">Grow your audience and build your online brand</p>  
+
+    <ul>
+
+
+        <li><a><b>Product</b> &nbsp <img src="./images/icon-arrow-light.svg"></a> 
+    
+         
+           <ul>
+               <li><a><b>Overview</b></a></li>
+               <li><a><b>Pricing</b></a></li>
+               <li><a><b>Marketplace</b></a></li>
+               <li><a><b>Features</b></a></li>
+               
+           </li>
+           </ul>
+        
+   
+           <li><a><b>Company</b> &nbsp <img src="./images/icon-arrow-light.svg"></a>
+   
+           <ul>
+               <li><a><b>About</b></a></li>
+               <li><a><b>Team</b></a></li>
+               <li><a><b>Blog</b></a></li>
+               </li>
+               
    
    
+           </ul>
+   
+   
+   
+         <li><a><b> Connect</b> &nbsp <img src="./images/icon-arrow-light.svg"></a>
+   
+           <ul>
+   
+   
+              <li><a><b>Contact</b></a></li>
+             <li><a><b>Newsletter</b></a></li>
+             <li><a><b>LinkedIn</b></a></li>
+           </li>
+   
+           </ul>
+          </div>
 
-}
+        </div>
+        <!--right side header-->
+        <div class="secondheader">
+            <div class="account">
+            <a href="#" class="login"><b>Login</b></a>
+            <a href="#" class="register"><b>Register</b></a>
+            </div>
+
+        </div>
+        <!--title bar-->
+        <div class="titlebar">
+            <p><h1> <span class="you"> A modern</span> publishing platform</h1></p>
+            <p class="Grow"><span class="you1">Grow your audience and build your </span>online brand</p>
+
+        </div>
+
+        <div class="btn">
+          
+         
+            <div class="account1">
+                <a href="#" class="free"><b>Start for Free</b></a>
+                <a href="#" class="learn"><b>Learn More</b></a>
+                </div>
+               
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+  <main>
+     <!--mobile view illustration labtop mobile -->
+     <img src="./images/illustration-editor-mobile.svg" alt="compp_phone" class="compp_phone">
+
+     <!--phone ill-->
+    <div class="under_menu">
+     <p class="future"><b>Designed for the future</b></p>
+     <img src="./images/illustration-editor-desktop.svg" class="firstpic">
+     <!--mobile view illustration labtop mobile -->
+    <img src="./images/illustration-editor-mobile.svg" alt="compp_phone" class="compp_phone">
+
+    <!--phone ill-->
+     
+
+
+     <div class="intro">
+       <p class="introh"><b>Introducing an extensible editor</b></p><br>
+       <p class="introb"> <b>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</b></p>
+       <p class="introhh"><b>Robust content management</b></p><br>
+       <p class="introbb"><b>Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</b></p>
+
+
+     </div>
+
+    </div>
+    
+
+    <div class="phoneill">
+      <img src="./images/bg-pattern-circles.svg" alt="big pattern circle" class="bgp">
+      <img src="./images/illustration-phones.svg" alt="phone illustration" class="phi">
+      <div class="phoneinside">
+        <h3 class="inside1">State of the Art Infrastructure</h3>
+        <p class="inside2">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </div>
+
+
+
+    </div>
+    
+
+    <div class="compill">
+      <img src="./images/illustration-laptop-desktop.svg" alt="computer illustration" class="compp">
+      
+      <!--image for phone-->
+      
+      <div class="hit">
+        <h2 class="title1">Free, open, simple</h2>
+        <p class="para1">Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.        </p>
+        <h2 class="title2">Powerful tooling</h2>
+        <p class="para2">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
+      </div>
+    </div>
+<div class="containerlast"><img src="./images/illustration-laptop-mobile.svg" alt="labtop" class="labtop"></div>
+
+   
+
+   </main>
+    
+    <footer>
+      
+           <img src="./images/logo.svg" alt="logo" class="logof">
+
+           <div class="footerf">
+            <ol> <li><b>Product</b></br>
+               <ol>
+                <li class="final"><a>Overview</a></li>
+                <li><a>Pricing</a></li>
+                <li><a>Marketplace</a></li>
+                <li><a>Features</a></li>
+                <li><a>Integrations</a></li>
+
+               </ol>
+             </li>
+            
+             
+            
+            </ol>
+             </div>
+
+             <div class="footerf1">
+              <ol> <li><b>Company</b> </br>
+                <ol>
+                 <li class="final"><a>About</a></li>
+                 <li><a>Team</a></li>
+                 <li><a>Blog</a></li>
+                 <li><a>Careers</a></li>
+ 
+                </ol>
+              </li>
+             
+              
+             
+             </ol>
+             </div>
+
+
+             <div class="footerf2">
+              <ol> <li><b>Connect</b></br>
+                <ol>
+                 <li class="final"><a>Contact</a></li>
+                 <li><a>Newsletter</a></li>
+                 <li><a>LinkedIn</a></li>
+                 
+ 
+                </ol>
+              </li>
+             
+              
+             
+             </ol>
+             </div>
+
+
+
+
+
+
+
+    </footer>
+
+
+    
+
+
+  
+    
+   
+</body>
+</html>
